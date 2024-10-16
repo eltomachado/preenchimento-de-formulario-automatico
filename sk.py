@@ -24,7 +24,7 @@ time.sleep(2)
 # Localize os campos de email e senha e preencha com os dados de login
 email_field = driver.find_element(By.XPATH, '//*[@id="id_usuario"]')
 email_field.clear()
-email_field.send_keys('diretoria@maxximusimportadora.com.br')
+email_field.send_keys('seu@login.com')
 
 senha_field = driver.find_element(By.XPATH, '//*[@id="id_senha"]')
 senha_field.clear()
